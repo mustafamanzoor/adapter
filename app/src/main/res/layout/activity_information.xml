@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Islamabad"
+        android:textSize="50sp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/isb"
+        android:layout_margin="30dp"></ImageView>
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/button"
+        ></Button>
+</LinearLayout>
+</RelativeLayout>
